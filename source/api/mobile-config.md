@@ -27,15 +27,15 @@ App.info({
 
 // Set up resources such as icons and launch screens.
 App.icons({
-  'iphone': 'icons/icon-60.png',
   'iphone_2x': 'icons/icon-60@2x.png',
   // ... more screen sizes and platforms ...
+  // ... https://docs.meteor.com/api/mobile-config.html#App-icons
 });
 
 App.launchScreens({
-  'iphone': 'splash/Default~iphone.png',
   'iphone_2x': 'splash/Default@2x~iphone.png',
   // ... more screen sizes and platforms ...
+  // https://docs.meteor.com/api/mobile-config.html#App-launchScreens
 });
 
 // Set PhoneGap/Cordova preferences
